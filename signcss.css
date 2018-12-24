@@ -1,0 +1,74 @@
+body
+{
+    background-image: url(fantasy-ship-wallpapers-hd-68752-7947731.png);
+    background-size: cover; 
+    color: white;
+        
+}
+h1
+{   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.box
+{   padding: 1cm;
+    width: 320px;
+    height:380px;
+    top: 50%;
+    left: 50%;
+    background:rgba(0,0,0,0.5);
+    color: #fff;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    
+}
+p
+{
+    text-align: center;
+    color: white;
+    
+}
+.box input
+{
+    width: 100%;
+    
+}
+.box input[type="text"],[type="password"]
+{
+    background: transparent;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-bottom: 1px solid;
+    color: white;
+}
+.box input[type="submit"]
+{
+    height: 40px;
+    cursor: pointer;
+    background-color:steelblue;
+    border:none;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.box input[type="submit"]:hover
+{
+    background-color: orangered;
+}
+.box a
+{
+ color: white;
+ margin-top: 10px;
+}
+.box a:hover
+{
+    color:crimson;
+}
+.logo
+{   position: absolute;
+    width:100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-275%);
+}
